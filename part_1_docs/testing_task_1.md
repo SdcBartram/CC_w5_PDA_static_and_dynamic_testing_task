@@ -15,7 +15,7 @@ Only comment on errors that would stop the tests running.
 ```python
 
 class CardGame:
-  # constructor method missing 
+
 
 
   def check_for_ace(self, card):
@@ -30,19 +30,22 @@ class CardGame:
   dif highest_card(self, card1 card2):
   # typo in defining function (def not dif) and comma (,) needed between paramenters card1 and card2
   if card1.value > card2.value:
+    # indentation
     return card
     # card1 should be returned
   else:
     return card2
   
 
-
+# indentation of function below
 def cards_total(self, cards):
   total
   # initial value is missing (total = 0)
   for card in cards:
     total += card.value
     return "You have a total of" + total
+  # space needed after the word "of"
   # total needs to be a string to allow concatenation ---> str(total)
+  # indentation of return statement
   
 ```
